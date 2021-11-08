@@ -25,7 +25,7 @@ void loop() {
     delay(1000);
     digitalWrite(water_pin_1, LOW);
     Serial.println("Water Pump ON");
-    delay(2000);
+    delay(1000);
 
   }
   
