@@ -22,9 +22,9 @@ void loop() {
 
   if (soil_moist_val > th){
     digitalWrite(water_pin_1, HIGH);
+    Serial.println("Water Pump ON");
     delay(1000);
     digitalWrite(water_pin_1, LOW);
-    Serial.println("Water Pump ON");
     delay(1000);
 
   }
