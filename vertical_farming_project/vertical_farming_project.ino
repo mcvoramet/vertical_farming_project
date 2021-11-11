@@ -36,7 +36,7 @@ void loop() {
   }
 
   Serial.print("Moisture Value = ");
-  Serial.println(analogRead(soil_pin_1));
+  Serial.println(soil_moist_val);
   delay(100);
 
 }
